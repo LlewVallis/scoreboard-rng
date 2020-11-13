@@ -1,0 +1,14 @@
+main: io.github.llewvallis.scoreboardrng.ScoreboardRngPlugin
+name: ${project.name}
+version: ${project.version}
+api-version: "1.16"
+permissions:
+  scoreboard-rng:
+    description: Grants access to the scoreboard-rng command
+commands:
+  scoreboard-rng:
+    description:
+      Puts a randomly generated number in a specified scoreboard slot of the specified scoreboard up to a specified
+      value exclusive
+    usage: scoreboard-rng <scoreboard> <slot> <value>
+    permission: scoreboard-rng
